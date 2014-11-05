@@ -1,0 +1,40 @@
+/* Base styles are added to this style sheet. Base styles are global styles that
+ * and don't only relate to one site feature and they exclude page layout styles 
+ */
+
+/* selection */
+::-moz-selection {
+    background: #FF8C00;
+		color: #fff;
+}
+::selection {
+    background: #FF8C00;
+		color: #fff;
+}
+
+/* site name */
+.site-name {
+	color: #fff;
+	text-shadow: 1px 1px #666;
+	margin: 20px 0 0 20px;
+	padding: 0 9px; 
+	/* ******** ADD FONT SIZE ************ */
+	line-height: 1.2;
+}
+.site-name a {
+	text-decoration: none;
+}
+
+/* body */
+body {
+	font-family: Verdana, sans-serif;
+	color: #222;
+}
+
+/* paragraphs */
+p {
+	
+}
+p.standfirst {
+	
+}

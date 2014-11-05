@@ -1,40 +1,173 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/main.css">
-        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
-    </head>
-    <body>
-        <!--[if lt IE 8]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+<body>
 
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
-        <script src="js/plugins.js"></script>
-        <script src="js/main.js"></script>
+<!-- accessibility skip links -->
+<div id="skip-to">
+  <ul>
+    <li><a href="#content">Skip to main content</a></li>
+    <li><a href="#local-nav">Skip to local navigation</a></li>
+    <li><a href="#global-nav">Skip to global navigation menu (without sub-sections)</a></li>
+    <li><a href="#global-nav-expanded">Skip to expanded global navigation menu (includes all sub-sections)</a></li>
+  </ul>
+</div>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-        </script>
-    </body>
+
+<!-- page wrapper -->
+<div id="wrapper" class="container_24 page">
+
+  <!-- page header -->
+  <header>
+    <div id="global-masthead" class="masthead grid_24">
+	
+      <!--This has to be one line and no newline characters-->
+<a href="http://www.elixir-europe.org/" title="Go to the ELIXIR homepage"><img src="http://178.79.185.223/global/images/elixir-logo-transparent-ultrasmall.png" alt="EMBL European Bioinformatics Institute"></a>
+
+    <!-- global top navigation -->
+    <nav>
+      <ul id="global-nav">
+	      <li id="about"><a href="about.html" title="What is ELIXIR?">About</a></li>
+          <li id="services"><a href="services.html" title="ELIXIR Services">Services</a></li>
+          <li id="training"><a href="organisation.html" title="Training">Training</a></li>
+        </ul>			
+      </nav>
+
+    </div> <!-- end of #global-masterhead -->
+
+    <!-- top header branding -->
+    <div id="local-masthead" class="masthead grid_24 nomenu">
+      <div class="grid_24" id="local-title">
+	
+        <div id="name-and-slogan"class="grid_12 alpha">
+          <div id="site-name" class="site-name">
+	        <!-- add your site name or logo here -->
+            <strong><a href="index.html" title="Home" rel="home">SITENAME</a></strong>
+          </div>
+          <!-- add your site slogan or strapline here --> 
+          <div id="site-slogan" class="strapline">
+            A Distributed Life Science Infrastructure for Biological Information
+          </div>
+        </div> <!-- end of #name-and-slogan -->
+
+        <!-- main navigation -->
+        <div class="main-navigation">
+          <nav>
+            <ul id="local-nav" class="grid_24">
+              <li class="menu-5403 menu-about " id="about"><a href="about.html" title="">About</a></li>
+              <li class="menu-5410 menu-services " id="services"><a href="services.html" title="">Services</a></li>
+              <li class="menu-5411 menu-training " id="training"><a href="organisation.html" title="">Training</a></li>
+              <li class="menu-5412 menu-ongoing-activities " id="ongoing-activities"><a href="events.html" title="">Ongoing activities</a></li>
+              <li class="menu-5413 menu-news " id="news"><a href="news.html" title="">News</a></li>
+              <li class="menu-5414 menu-members-area " id="members-area"><a href="members-area.html" title="">Members area</a></li>
+            </ul>              
+          </nav>
+        </div> <!-- end of main navigation -->
+
+    </div> <!-- end of global-masterhead -->
+  </header> <!-- end of page header -->
+
+
+
+  <!-- main content based on one column layout in this instance -->
+  <div id="content" role="main" class="grid_24 clearfix">
+    <section class="grid_24">
+	  <!-- page content title -->
+      <h1 class="title" id="page-title">Welcome to SITENAME (one column layout)</h1>
+
+      <div class="content">
+        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel enim ac libero rhoncus dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis tempor augue sit amet sem gravida congue.</p>
+	    <p>Vivamus vestibulum in eros at placerat. Aliquam auctor tellus sed magna facilisis laoreet. Vestibulum tempus porta mattis. Aliquam pellentesque placerat urna, eget feugiat sapien blandit sit amet. Nulla finibus sapien quis sem convallis ultricies.</p>
+        <p>Aenean non dui luctus, finibus mi id, sodales lectus. Vestibulum accumsan est in est dictum, et tristique leo rhoncus. Donec in maximus dolor. Ut vel justo vitae ante posuere ultrices. Ut et odio ut orci bibendum tristique nec sodales eros. Aenean scelerisque at est volutpat tempus. Nam eget lorem vitae libero facilisis porta quis sed nulla.</p>
+      </div> <!-- end of .content -->
+
+    </section> 
+  </div> <!-- end of main #content -->
+
+  <!-- page footer -->
+  <footer>
+
+    <!-- Optional local footer (insert citation / project-specific copyright / etc here -->
+    <div id="local-footer" class="grid_24 clearfix">
+	</div> <!-- end of .local-footer -->
+
+    <!-- global footer -->
+    <div id="global-footer" class="grid_24">
+
+      <nav id="global-nav-expanded">
+
+        <div class="grid_4 alpha">
+          <h3 class="elixir"><a href="http://www.elixir-europe.org/" title="ELIXIR">ELIXIR</a></h3>
+        </div>
+
+        <div class="grid_4">
+          <h3 class="services"><a href="/services.html">Services</a></h3>
+        </div>
+
+        <div class="grid_4">
+          <h3 class="research"><a href="/research.html">Research</a></h3>
+        </div>
+
+        <div class="grid_4">
+          <h3 class="training"><a href="/training.html">Training</a></h3>
+        </div>
+
+        <div class="grid_4">
+          <h3 class="industry"><a href="/industry.html">Industry</a></h3>
+        </div>
+
+        <div class="grid_4 omega">
+          <h3 class="about"><a href="/about.html">About us</a></h3>
+        </div>
+
+      </nav> <!-- end of #global-nav-expanded -->
+
+      <!-- footer meta -->
+      <section id="footer-meta">
+        <p class="address">EMBL-EBI, Wellcome Trust Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK &nbsp; &nbsp; +44 (0)1223 49 44 44</p>
+        <p class="legal">Copyright &copy; EMBL-EBI 2014 | EBI is an Outstation of the <a href="http://www.embl.org/">European Molecular Biology Laboratory</a> | <a href="http://178.79.185.223/about/privacy">Privacy</a> | <a href="http://178.79.185.223/about/cookies">Cookies</a> | <a href="http://178.79.185.223/about/terms-of-use">Terms of use</a></p>	
+      </section>
+      <!-- end of footer meta -->
+
+    </div> <!-- end of #global-footer -->
+
+  </footer>
+  <!-- end of page footer -->
+
+
+</div> <!-- end page wrapper -->
+
+
+<!-- scripts from the HTML5 Boilerplate theme -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+<script>
+  (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+  function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+  e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+  e.src='//www.google-analytics.com/analytics.js';
+  r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+  ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+</script>
+<!-- end of scripts from the HTML5 Boilerplate theme -->
+
+</body>
 </html>
