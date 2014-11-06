@@ -29,6 +29,13 @@
 body {
 	font-family: Verdana, sans-serif;
 	color: #222;
+	background: #e0dfdd url('../img/body-background.png') top left repeat;
+  margin: 0 auto;
+}
+
+/* page wrapper */
+#wrapper {
+	background-color: #fff;
 }
 
 /* paragraphs */

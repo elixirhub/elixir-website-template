@@ -2,7 +2,15 @@
  * together and it should only contain imports and normally not require any additional css 
  */
 
+# HTML5 Boiler plate
 @import url("_boilerplate-default.css");
+
+# 960 Grid
+@import url("grid/min/reset.css");
+@import url("grid/min/text.css");
+@import url("grid/min/960_24_col.css");
+
+# ELIXIR overrides
 @import url("_base.css");
 @import url("_layout.css");
 @import url("_features.css");

@@ -17,37 +17,40 @@
 <body>
 
 
-<!-- accessibility skip links -->
-<div id="skip-to">
-  <ul>
-    <li><a href="#content">Skip to main content</a></li>
-    <li><a href="#local-nav">Skip to local navigation</a></li>
-    <li><a href="#global-nav">Skip to global navigation menu (without sub-sections)</a></li>
-    <li><a href="#global-nav-expanded">Skip to expanded global navigation menu (includes all sub-sections)</a></li>
-  </ul>
-</div>
-
-
 <!-- page wrapper -->
 <div id="wrapper" class="container_24 page">
+	
+	<!-- accessibility skip links -->
+	<div id="skip-to">
+	  <ul>
+	    <li><a href="#content">Skip to main content</a></li>
+	    <li><a href="#local-nav">Skip to local navigation</a></li>
+	    <li><a href="#global-nav">Skip to global navigation menu (without sub-sections)</a></li>
+	    <li><a href="#global-nav-expanded">Skip to expanded global navigation menu (includes all sub-sections)</a></li>
+	  </ul>
+	</div>
+	
 
   <!-- page header -->
   <header>
+	
+	<!-- ELIXIR masterhead -->
     <div id="global-masthead" class="masthead grid_24">
 	
       <!--This has to be one line and no newline characters-->
-<a href="http://www.elixir-europe.org/" title="Go to the ELIXIR homepage"><img src="http://178.79.185.223/global/images/elixir-logo-transparent-ultrasmall.png" alt="EMBL European Bioinformatics Institute"></a>
+<a href="http://www.elixir-europe.org/" title="Go to the ELIXIR homepage"><img src="img/elixir-masterhead-logo.png" alt="ELIXIR logo"></a>
 
     <!-- global top navigation -->
     <nav>
       <ul id="global-nav">
-	      <li id="about"><a href="about.html" title="What is ELIXIR?">About</a></li>
-          <li id="services"><a href="services.html" title="ELIXIR Services">Services</a></li>
-          <li id="training"><a href="organisation.html" title="Training">Training</a></li>
-        </ul>			
-      </nav>
+	    <li id="about"><a href="http://www.elixir-europe.org/about" title="What is ELIXIR?">About</a></li>
+        <li id="services"><a href="http://www.elixir-europe.org/services" title="ELIXIR Services">Services</a></li>
+        <li id="training"><a href="http://www.elixir-europe.org/training" title="Training">Training</a></li>
+      </ul>			
+    </nav>
 
     </div> <!-- end of #global-masterhead -->
+    <!-- end of ELIXIR masterhead -->
 
     <!-- top header branding -->
     <div id="local-masthead" class="masthead grid_24 nomenu">
@@ -98,58 +101,98 @@
     </section> 
   </div> <!-- end of main #content -->
 
+
+
   <!-- page footer -->
   <footer>
 
-    <!-- Optional local footer (insert citation / project-specific copyright / etc here -->
-    <div id="local-footer" class="grid_24 clearfix">
-	</div> <!-- end of .local-footer -->
+  <!-- optional local footer -->
+  <div id="local-footer" class="grid_24 clearfix">
+  </div>
 
-    <!-- global footer -->
-    <div id="global-footer" class="grid_24">
+  <!-- global footer -->
+  <div id="global-footer" class="grid_24">
 
-      <nav id="global-nav-expanded">
+  <div class="global-footer-navigation">
+    <nav id="global-nav-expanded">
+	  <!-- first footer menu column -->
+      <div class="grid_4 alpha">  
+        <a href="http://www.elixir-europe.org" title="ELIXIR" class="no-underline"><img src="img/footer-logo.png" alt="Elixir logo"></a>
+        <ul>
+          <li class="first"><a href="#">News</a></li>
+          <li><a href="#">Brochures</a></li>
+          <li><a href="#">Contact us</a></li>
+          <li class="last"><a href="#">Intranet</a></li>
+        </ul>
+      </div>
+      <!-- second footer menu column -->
+      <div class="grid_4">
+        <h3 class="research"><a href="#">Research</a></h3>
+        <ul>
+          <li class="first"><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li class="last"><a href="#">Lorem ipsum</a></li>
+        </ul>
+      </div>   
+      <!-- third footer menu column -->
+      <div class="grid_4">
+        <h3 class="training"><a href="#">Training</a></h3>
+        <ul>
+          <li class="first"><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li class="last"><a href="#">Lorem ipsum</a></li>
+        </ul>
+      </div>
+      <!-- fourth footer menu column -->
+      <div class="grid_4">
+        <h3 class="industry"><a href="#">Industry</a></h3>
+        <ul>
+          <li class="first"><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li class="last"><a href="#">Lorem ipsum</a></li>
+        </ul>
+      </div>
+      <!-- fifth footer menu column -->
+      <div class="grid_4 omega">
+        <h3 class="about"><a href="#">About us</a></h3>
+        <ul>
+          <li class="first"><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li><a href="#">Lorem ipsum</a></li>
+          <li class="last"><a href="#">Lorem ipsum</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div> <!-- end of .global-footer-navugation -->
 
-        <div class="grid_4 alpha">
-          <h3 class="elixir"><a href="http://www.elixir-europe.org/" title="ELIXIR">ELIXIR</a></h3>
-        </div>
+  <!-- ELIXIR footer meta -->
+  <section id="footer-meta">
+    <p class="address">ELIXIR c/o EMBL-EBI, Wellcome Trust Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK &nbsp; &nbsp; +44 (0)1223 49 44 44</p>
+    <p class="legal">Copyright &copy; ELIXIR 2014 | <a href="http://www.elixir-europe.org/about/privacy">Privacy</a> | <a href="http://www.elixir-europe.org/about/cookies">Cookies</a> | <a href="http://www.elixir-europe.org/about/terms-of-use">Terms of use</a></p>	
+  </section>
+  <!-- end of ELIXIR footer meta -->
 
-        <div class="grid_4">
-          <h3 class="services"><a href="/services.html">Services</a></h3>
-        </div>
-
-        <div class="grid_4">
-          <h3 class="research"><a href="/research.html">Research</a></h3>
-        </div>
-
-        <div class="grid_4">
-          <h3 class="training"><a href="/training.html">Training</a></h3>
-        </div>
-
-        <div class="grid_4">
-          <h3 class="industry"><a href="/industry.html">Industry</a></h3>
-        </div>
-
-        <div class="grid_4 omega">
-          <h3 class="about"><a href="/about.html">About us</a></h3>
-        </div>
-
-      </nav> <!-- end of #global-nav-expanded -->
-
-      <!-- footer meta -->
-      <section id="footer-meta">
-        <p class="address">EMBL-EBI, Wellcome Trust Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK &nbsp; &nbsp; +44 (0)1223 49 44 44</p>
-        <p class="legal">Copyright &copy; EMBL-EBI 2014 | EBI is an Outstation of the <a href="http://www.embl.org/">European Molecular Biology Laboratory</a> | <a href="http://178.79.185.223/about/privacy">Privacy</a> | <a href="http://178.79.185.223/about/cookies">Cookies</a> | <a href="http://178.79.185.223/about/terms-of-use">Terms of use</a></p>	
-      </section>
-      <!-- end of footer meta -->
-
-    </div> <!-- end of #global-footer -->
-
+  </div> <!-- end of #global-footer -->
   </footer>
   <!-- end of page footer -->
 
 
+
 </div> <!-- end page wrapper -->
+
 
 
 <!-- scripts from the HTML5 Boilerplate theme -->
