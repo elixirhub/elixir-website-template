@@ -12,6 +12,9 @@ css/main.css has been modified to include all the relevant css files. The boiler
 that was ORIGINALLY in main.css has been moved into _boilerplate-default.css. To maintain 
 the integrity of the structure and code, the only css files that you should edit are:
 
+
+_mobile_grid_overrides.css to override 960 grid system for mobile
+
 _base.css to add your base styles
 
 _layout.css for page layouts
@@ -21,6 +24,7 @@ _features.css for individual page features
 All of these css files can include css that overrides css from 960 Grid and the Boilerplate
 
 Have a look at main.css to see the order in which the css files are included.
+
 
 ==================
 DOCUMENTS / HELP

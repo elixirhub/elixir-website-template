@@ -34,7 +34,7 @@ body {
 }
 
 /* page wrapper */
-#wrapper {
+#page-wrapper {
 	background-color: #fff;
 }
 
@@ -45,3 +45,4 @@ p {
 p.standfirst {
 	
 }
+

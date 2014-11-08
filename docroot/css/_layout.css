@@ -2,7 +2,8 @@
  * not the structure of individual site features 
  */
 
-#wrapper {
+#page-wrapper,
+#page-wrapper.container_24 {
 	width: 960px;
-	margin: 0 auto;
 }
+
