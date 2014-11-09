@@ -2,8 +2,67 @@
  * not the structure of individual site features 
  */
 
-#page-wrapper,
-#page-wrapper.container_24 {
+/* grid 24 is a special case so improve the way 960 grid system treats it */
+.container_24 .grid_24.alpha {
+	width: 955px;
+}
+.container_24 .grid_24.omega {
+	width: 955px;
+}
+.container_24 .grid_24.alpha.omega {
 	width: 960px;
 }
 
+/* Adds some more outer margin to the content area
+ * to compensate for only 5px that the 960 grid adds
+ * classes for nod-sidebars, left-sidebar and right-sidebar
+ * needs to be added to the body tag
+ */
+.no-sidebars .main-content-inner {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.left-sidebar .main-content-inner {
+	margin-right: 5px;
+}
+.right-sidebar .main-content-inner {
+	margin-left: 5px;
+}
+.left-sidebar.right-sidebar .main-content-inner {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/* Adds some maore outer margin */
+.local-footer-inner {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.local-meta-inner {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+/* cross broser clearfix - clearfix class os added to containers that need to be cleared */
+.clearfix:after {
+   content: ".";
+   display: block;
+   clear: both;
+   visibility: hidden;
+   line-height: 0;
+   height: 0;
+}
+ 
+.clearfix {
+   display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+   display: block;
+}
+ 
+* html .clearfix {
+   height: 1%;
+   overflow: visible;
+}

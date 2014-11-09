@@ -2,6 +2,34 @@
  * and don't only relate to one site feature and they exclude page layout styles 
  */
 
+
+/* skip to links */
+.skip-to-links-wrapper {
+	margin: 10px;
+}
+#skip-to ul {
+	list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+#skip-to ul li {
+	padding: 0;
+	margin: 0 0 5px 0;
+}
+#skip-to { 
+	position: absolute; 
+	left: -10000px; 
+	top: auto; 
+	width: 1px; 
+	height: 1px; 
+	overflow: hidden;
+} 
+#skip-to:focus { 
+  position: static; 
+  width: auto; 
+  height: auto; 
+}
+
 /* selection */
 ::-moz-selection {
     background: #FF8C00;
@@ -45,4 +73,52 @@ p {
 p.standfirst {
 	
 }
+
+/* global masterhead */
+#global-masthead {
+  background-color: #333;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+/* local masterhead */
+#local-masthead{
+	background-color:#f47d20;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
