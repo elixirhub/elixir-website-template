@@ -71,8 +71,14 @@
 	margin-left: 5px;
 	margin-right: 5px;
 }
-.local-meta-inner {
+.footer-meta-inner {
 	margin-left: 5px;
+	margin-right: 5px;
+}
+.footer-first-menu-inner {
+	margin-left: 5px;
+}
+.footer-last-menu-inner {
 	margin-right: 5px;
 }
 /* for mobile */
@@ -81,9 +87,19 @@
 		margin-left: 10px;
 		margin-right: 10px;
 	}
-	.local-meta-inner {
+	.footer-meta-inner {
 		margin-left: 10px;
 		margin-right: 10px;
+	}
+	.global-footer-navigation {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.footer-first-menu-inner {
+		margin-left: 0px;
+	}
+	.footer-last-menu-inner {
+		margin-right: 0px;
 	}
 }
 
@@ -109,3 +125,5 @@ html[xmlns] .clearfix {
    height: 1%;
    overflow: visible;
 }
+
+

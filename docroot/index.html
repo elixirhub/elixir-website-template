@@ -37,7 +37,7 @@
 	
 	<!-- ELIXIR masterhead -->
     <div id="global-masthead" class="grid_24 alpha omega">
-	
+
       <!--This has to be one line and no newline characters-->
       <a href="http://www.elixir-europe.org/" title="Go to the ELIXIR homepage"><img src="img/elixir-masterhead-logo.png" alt="ELIXIR logo"></a>
 
@@ -59,7 +59,7 @@
         <div id="name-and-slogan">
           <div id="site-name" class="site-name">
 	        <!-- add your site name or logo here -->
-            <strong><a href="index.html" title="Home" rel="home">SITENAME</a></strong>
+            <a href="index.html" title="Home" rel="home">SITENAME</a>
           </div>
           <!-- add your site slogan or strapline here --> 
           <div id="site-slogan" class="strapline">
@@ -92,10 +92,10 @@
 	  <div class="main-content-inner">
 	    <section>
 		  	  <!-- page content title -->
-	          <h1 class="title" id="page-title">Main heading here</h1>
+	          <h1 class="title" id="page-title">Main heading</h1>
 		  <article>
 		    <header>	
-              <h2>Subheading here</h2>
+              <h2>Example subheading</h2>
 	        </header>
 		      <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel enim ac libero rhoncus dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis tempor augue sit amet sem gravida congue.</p>
 			  <p>Vivamus vestibulum in eros at placerat. Aliquam auctor tellus sed magna facilisis laoreet. Vestibulum tempus porta mattis. Aliquam pellentesque placerat urna, eget feugiat sapien blandit sit amet. Nulla finibus sapien quis sem convallis ultricies.</p>
@@ -124,14 +124,16 @@
   <div class="global-footer-navigation clearfix">
     <nav id="global-nav-expanded">
 	  <!-- first footer menu column -->
-      <div class="grid_4 alpha">  
-        <a href="http://www.elixir-europe.org" title="ELIXIR" class="no-underline"><img src="img/footer-logo.png" alt="Elixir logo"></a>
-        <ul>
-          <li class="first"><a href="#">News</a></li>
-          <li><a href="#">Brochures</a></li>
-          <li><a href="#">Contact us</a></li>
-          <li class="last"><a href="#">Intranet</a></li>
-        </ul>
+      <div class="grid_4 alpha">
+	    <div class="footer-first-menu-inner">
+	      <a href="http://www.elixir-europe.org" title="ELIXIR" class="no-underline"><img src="img/footer-logo.png" alt="Elixir logo"></a>
+	      <ul>
+	        <li class="first"><a href="#">News</a></li>
+	        <li><a href="#">Brochures</a></li>
+	        <li><a href="#">Contact us</a></li>
+	        <li class="last"><a href="#">Intranet</a></li>
+	      </ul>
+        </div>
       </div>
       <!-- second footer menu column -->
       <div class="grid_5">
@@ -168,20 +170,22 @@
       </div>
       <!-- fifth footer menu column -->
       <div class="grid_5 omega">
-        <h3 class="about"><a href="#">About us</a></h3>
-        <ul>
-          <li class="first"><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li><a href="#">Lorem ipsum</a></li>
-          <li class="last"><a href="#">Lorem ipsum</a></li>
-        </ul>
+	    <div class="footer-last-menu-inner">
+          <h3 class="about"><a href="#">About us</a></h3>
+          <ul>
+            <li class="first"><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li><a href="#">Lorem ipsum</a></li>
+            <li class="last"><a href="#">Lorem ipsum</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
   </div> <!-- end of .global-footer-navugation -->
@@ -191,7 +195,18 @@
     <div class="footer-meta-inner">
   <aside>
     <p class="address">ELIXIR c/o EMBL-EBI, Wellcome Trust Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK &nbsp; &nbsp; +44 (0)1223 49 44 44</p>
-    <p class="legal">Copyright &copy; ELIXIR 2014 | <a href="http://www.elixir-europe.org/about/privacy">Privacy</a> | <a href="http://www.elixir-europe.org/about/cookies">Cookies</a> | <a href="http://www.elixir-europe.org/about/terms-of-use">Terms of use</a></p>	
+    <div class="legal">
+	  <span class="copyright">Copyright &copy; ELIXIR 2014</span>
+	  <div class="legal-navigation">
+		<nav>
+		  <ul class="legal">
+	        <li class="first"><a href="http://www.elixir-europe.org/about/privacy">Privacy</a></li>
+			<li><a href="http://www.elixir-europe.org/about/cookies">Cookies</a></li>
+	        <li class="last"><a href="http://www.elixir-europe.org/about/terms-of-use">Terms of use</a></li>
+	      </ul>
+	    </nav>
+	  </div>
+	</div> <!-- end of .legal -->
   </aside>
     </div> <!-- end of .footer-meta-inner -->
   </div> <!-- end of #footer-meta -->
