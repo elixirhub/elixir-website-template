@@ -2,19 +2,15 @@
 
 /* start of media query */
 @media all and (max-width: 739px) {
-
-	h1 {
-		color: red;
-	}
 	body {
-	  min-width: none;
+	  min-width: 0px;
 	}
 
 	/* `Container
 	----------------------------------------------------------------------------------------------------*/
 
 	.container_24 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	/* `Grid >> Global
@@ -81,99 +77,99 @@
 	----------------------------------------------------------------------------------------------------*/
 
 	.container_24 .grid_1 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_2 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_3 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_4 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_5 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_6 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_7 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_8 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_9 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_10 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_11 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_12 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_13 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_14 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_15 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_16 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_17 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_18 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_19 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_20 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_21 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_22 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_23 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	.container_24 .grid_24 {
-	  width: 100%;
+	  width: auto;
 	}
 
 	/* `Prefix Extra Space >> 24 Columns

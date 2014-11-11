@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
+  <title>Add title here</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -44,9 +44,9 @@
     <!-- global top navigation -->
     <nav>
       <ul id="global-nav">
-	    <li id="about"><a href="http://www.elixir-europe.org/about" title="What is ELIXIR?">About</a></li>
-        <li id="services"><a href="http://www.elixir-europe.org/services" title="ELIXIR Services">Services</a></li>
-        <li id="training"><a href="http://www.elixir-europe.org/training" title="Training">Training</a></li>
+	    <li class="menu-about first"><a href="http://www.elixir-europe.org/about" title="What is ELIXIR?">About</a></li>
+        <li class="menu-services"><a href="http://www.elixir-europe.org/services" title="ELIXIR Services">Services</a></li>
+        <li class="menu-training last"><a href="http://www.elixir-europe.org/training" title="Training">Training</a></li>
       </ul>			
     </nav>
 
@@ -71,12 +71,12 @@
         <div class="main-navigation">
           <nav>
             <ul id="local-nav">
-              <li class="menu-5403 menu-about " id="about"><a href="about.html" title="">About</a></li>
-              <li class="menu-5410 menu-services " id="services"><a href="services.html" title="">Services</a></li>
-              <li class="menu-5411 menu-training " id="training"><a href="organisation.html" title="">Training</a></li>
-              <li class="menu-5412 menu-ongoing-activities " id="ongoing-activities"><a href="events.html" title="">Ongoing activities</a></li>
-              <li class="menu-5413 menu-news " id="news"><a href="news.html" title="">News</a></li>
-              <li class="menu-5414 menu-members-area " id="members-area"><a href="members-area.html" title="">Members area</a></li>
+              <li class="menu-about first"><a href="about.html" title="">About</a></li>
+              <li class="menu-services"><a href="services.html" title="">Services</a></li>
+              <li class="menu-training"><a href="organisation.html" title="">Training</a></li>
+              <li class="menu-ongoing-activities"><a href="events.html" title="">Ongoing activities</a></li>
+              <li class="menu-news"><a href="news.html" title="">News</a></li>
+              <li class="menu-members-area last"><a href="members-area.html" title="">Members area</a></li>
             </ul>              
           </nav>
         </div> <!-- end of main navigation -->
@@ -91,15 +91,16 @@
     <div id="main-content">
 	  <div class="main-content-inner">
 	    <section>
-		  <!-- page content title -->
-	      <h1 class="title" id="page-title">Welcome to SITENAME (one column layout)</h1>
-
-	      <div class="content">
-	        <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel enim ac libero rhoncus dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis tempor augue sit amet sem gravida congue.</p>
-		    <p>Vivamus vestibulum in eros at placerat. Aliquam auctor tellus sed magna facilisis laoreet. Vestibulum tempus porta mattis. Aliquam pellentesque placerat urna, eget feugiat sapien blandit sit amet. Nulla finibus sapien quis sem convallis ultricies.</p>
-	        <p>Aenean non dui luctus, finibus mi id, sodales lectus. Vestibulum accumsan est in est dictum, et tristique leo rhoncus. Donec in maximus dolor. Ut vel justo vitae ante posuere ultrices. Ut et odio ut orci bibendum tristique nec sodales eros. Aenean scelerisque at est volutpat tempus. Nam eget lorem vitae libero facilisis porta quis sed nulla.</p>
-	      </div> <!-- end of .content -->
-
+		  	  <!-- page content title -->
+	          <h1 class="title" id="page-title">Main heading here</h1>
+		  <article>
+		    <header>	
+              <h2>Subheading here</h2>
+	        </header>
+		      <p class="standfirst">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vel enim ac libero rhoncus dignissim. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis tempor augue sit amet sem gravida congue.</p>
+			  <p>Vivamus vestibulum in eros at placerat. Aliquam auctor tellus sed magna facilisis laoreet. Vestibulum tempus porta mattis. Aliquam pellentesque placerat urna, eget feugiat sapien blandit sit amet. Nulla finibus sapien quis sem convallis ultricies.</p>
+		      <p>Aenean non dui luctus, finibus mi id, sodales lectus. Vestibulum accumsan est in est dictum, et tristique leo rhoncus. Donec in maximus dolor. Ut vel justo vitae ante posuere ultrices. Ut et odio ut orci bibendum tristique nec sodales eros. Aenean scelerisque at est volutpat tempus. Nam eget lorem vitae libero facilisis porta quis sed nulla.</p>
+          </article>
 	    </section>
       </div> <!-- end of /main-content-inner -->
     </div> <!-- end of #main-content -->
@@ -114,8 +115,8 @@
   <div id="local-footer" class="grid_24">
     <div class="local-footer-inner">
 	  <!-- add local footer content here -->
-	<div>
-  </div>
+	</div> <!-- end of .local-footer-inner -->
+  </div> <!-- end of #local-footer -->
 
   <!-- global footer -->
   <div id="global-footer" class="grid_24">
@@ -188,10 +189,10 @@
   <!-- ELIXIR footer -->
   <div id="footer-meta" class="grid_24 alpha omega">
     <div class="footer-meta-inner">
-  <section>
+  <aside>
     <p class="address">ELIXIR c/o EMBL-EBI, Wellcome Trust Genome Campus, Hinxton, Cambridgeshire, CB10 1SD, UK &nbsp; &nbsp; +44 (0)1223 49 44 44</p>
     <p class="legal">Copyright &copy; ELIXIR 2014 | <a href="http://www.elixir-europe.org/about/privacy">Privacy</a> | <a href="http://www.elixir-europe.org/about/cookies">Cookies</a> | <a href="http://www.elixir-europe.org/about/terms-of-use">Terms of use</a></p>	
-  </section>
+  </aside>
     </div> <!-- end of .footer-meta-inner -->
   </div> <!-- end of #footer-meta -->
   <!-- end of ELIXIR footer -->

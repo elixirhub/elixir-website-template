@@ -12,6 +12,22 @@
 .container_24 .grid_24.alpha.omega {
 	width: 960px;
 }
+/* for mobile */
+@media all and (max-width: 739px) {
+	.container_24 .grid_24.alpha {
+	  width: auto;
+	}
+	.container_24 .grid_24.omega {
+	  width: auto;
+	}
+	.container_24 .grid_24.alpha.omega {
+	  width: auto;
+	}
+	html, body {
+		height: auto;
+	}
+
+}
 
 /* Adds some more outer margin to the content area
  * to compensate for only 5px that the 960 grid adds
@@ -32,6 +48,23 @@
 	margin-left: 0px;
 	margin-right: 0px;
 }
+/* for mobile */
+@media all and (max-width: 739px) {
+	.no-sidebars .main-content-inner {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.left-sidebar .main-content-inner {
+		margin-right: 10px;
+	}
+	.right-sidebar .main-content-inner {
+		margin-left: 10px;
+	}
+	.left-sidebar.right-sidebar .main-content-inner {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
 
 /* Adds some maore outer margin */
 .local-footer-inner {
@@ -42,7 +75,17 @@
 	margin-left: 5px;
 	margin-right: 5px;
 }
-
+/* for mobile */
+@media all and (max-width: 739px) {
+	.local-footer-inner {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.local-meta-inner {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
 
 /* cross broser clearfix - clearfix class os added to containers that need to be cleared */
 .clearfix:after {
