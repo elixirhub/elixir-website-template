@@ -3,6 +3,11 @@
  * example: home page carousel, or main menu, or search from
  */
 
+
+/* ==========================================================================
+   Global Masterhead
+   ========================================================================== */
+
 /* global masterhead - banner */
 #global-masthead {
   background-color: #333;
@@ -12,10 +17,10 @@
   overflow: hidden; 
 }
 /* global masterhead - site logo */
-.site-logo {
+.masterhead-logo {
 	margin-left: 10px;
 	float: left;
-	margin-right: 30px;
+	margin-right: 10px;
 }
 /* global masterhead - global nav */
 #global-nav {
@@ -32,7 +37,6 @@
 }
 #global-nav a {
 	display: block;
-	padding-top: 5px;
 	height: 13px;
 	padding: 8px 7px 9px 7px;
 	font-size: 12px;
@@ -62,6 +66,42 @@
 #global-nav .menu-documents a.active {
 	border-top-color: #346189;
 }
+/* global masterhead - for mobile */
+@media all and (max-width: 739px) {
+	#global-masthead {
+		height: auto;
+	}
+	.masterhead-logo {
+		float: none;
+		margin-bottom: 5px;
+	}
+	#global-nav {
+		float: none;
+		border-top: 1px solid #666;
+	}
+	#global-nav a:hover,
+	#global-nav a.active,
+	#global-nav .menu-about a:hover,
+	#global-nav .menu-about a.active,
+	#global-nav .menu-services a:hover,
+	#global-nav .menu-services a.active,
+	#global-nav .menu-training a:hover,
+	#global-nav .menu-training a.active,
+	#global-nav .menu-documents a:hover,
+	#global-nav .menu-documents a.active {
+		border-top: none;
+	}
+	#global-nav a:hover,
+	#global-nav a.active {
+		padding-top: 8px;
+    background-color: #505050;
+	}
+}
+
+
+/* ==========================================================================
+   Local Masterhead
+   ========================================================================== */
 
 /* local masterhead - banner */
 #local-masthead {
@@ -71,11 +111,12 @@
 .site-name {
 	color: #fff;
 	margin-left: 10px;
-	margin-top: 12px;
+	padding-top: 12px;
 	font-family: 'HelveticaNeueLT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 48px;
 	font-weight: 300;
 	line-height: 1.1;
+	text-shadow: 1px 1px #666;
 }
 .site-name a {
 	color: #fff;
@@ -89,8 +130,135 @@
 	font-size: 22px;
 	line-height: 1.1;
 	color: #fff;
-	padding-bottom: 10px;
+	padding-bottom: 8px;
 }
+
+/* local masterhead - for mobile */
+@media all and (max-width: 739px) {
+	.site-name {
+		font-size: 34px;
+		padding-top: 5px;
+		text-shadow: none;
+	}
+	.site-slogan {
+		font-size: 16px;
+		margin-top: 5px;
+	}
+}
+
+
+/* ==========================================================================
+   Main Menu
+   ========================================================================== */
+
+.main-navigation {
+	background-color: #99521a;
+	overflow: hidden;
+	border-bottom: 3px solid #eeeeee;
+}
+#local-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#local-nav li {
+	margin: 0;
+	padding: 0;
+	float: left;
+	border-right: 1px dotted #f6f6f6;
+}
+#local-nav li.last {
+	border-right: none;
+}
+#local-nav li a {
+	display: block;
+	padding: 5px 10px 8px 10px;
+	color: #f6f6f6;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1;
+	text-shadow: 1px 1px #666;
+}
+#local-nav li a:hover {
+	color: #fff;
+	text-decoration: none;
+	background-color: #333;
+}
+
+/* main menu - for mobile */
+@media all and (max-width: 739px) {
+	.main-navigation  {
+		border-bottom: none;
+	}
+	#local-nav li {
+		float: none;
+		border-right: none;
+		border-bottom: 1px solid #ad7548;
+	}
+	#local-nav li a {
+		color: #fff;
+		text-shadow: none;
+	}
+	#local-nav li a:hover {
+		background-color: #9e5b26;
+	}
+}
+
+
+/* ==========================================================================
+   Page Title and Headings
+   ========================================================================== */
+
+h1.title {
+	font-size: 37px;
+	color: #996a44;
+	line-height: 1.1;
+	font-weight: 300;
+	margin: 0 0 12px 0;
+}
+
+h2 {
+	font-size: 25px;
+	color: #996a44;
+	line-height: 1.2;
+	font-weight: 300;
+	margin: 0 0 12px 0;
+}
+
+h3 {
+	font-size: 17px;
+	color: #996a44;
+	line-height: 1.2;
+	font-weight: 300;
+	margin: 0 0 12px 0;
+}
+
+p.standfirst {
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

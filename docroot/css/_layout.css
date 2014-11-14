@@ -2,6 +2,12 @@
  * not the structure of individual site features 
  */
 
+
+
+/* ==========================================================================
+   Grid overrides
+   ========================================================================== */
+
 /* grid 24 is a special case so improve the way 960 grid system treats it */
 .container_24 .grid_24.alpha {
 	width: 955px;
@@ -29,6 +35,15 @@
 
 }
 
+
+
+/* ==========================================================================
+   Content area
+   ========================================================================== */
+
+.main-content-inner {
+	padding-top: 10px;
+}
 /* Adds some more outer margin to the content area
  * to compensate for only 5px that the 960 grid adds
  * classes for nod-sidebars, left-sidebar and right-sidebar
@@ -66,7 +81,13 @@
 	}
 }
 
-/* Adds some maore outer margin */
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+/* Adds some more outer margin */
 .local-footer-inner {
 	margin-left: 5px;
 	margin-right: 5px;
@@ -102,6 +123,14 @@
 		margin-right: 0px;
 	}
 }
+
+
+
+/* ==========================================================================
+   Clearning floats
+   ========================================================================== */
+
+/* Example: <div id="main-wrapper" role="main" class="grid_24 clearfix"> */
 
 /* cross broser clearfix - clearfix class os added to containers that need to be cleared */
 .clearfix:after {
