@@ -240,16 +240,102 @@ p.standfirst {
 
 
 
+/* ==========================================================================
+   Footer section
+   ========================================================================== */
+
+#global-footer {
+	border-top: 7px solid #eee;
+	background-color: #fbfbfa;
+	padding-top: 20px;
+}
 
 
+/* ==========================================================================
+   Footer global nav
+   ========================================================================== */
+
+.global-footer-navigation {
+	display: block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+/* we don't use the grid for the menus because thee is no option to get 
+ * five equal width columns in a 24 column grid structure
+ */
+.footer-global-nav-column {
+	width: 168px;
+	display: inline;
+	float: left;
+	margin-right: 20px;
+}
+
+.global-footer-navigation a {
+	text-decoration: none;
+}
+.global-footer-navigation a:hover {
+  background-color: #ddd;
+}
+
+.global-footer-navigation a.footer-global-nav-logo {
+	margin-top: 10px;
+	display: block;
+}
+.global-footer-navigation a.footer-global-nav-logo:hover {
+	background-color: transparent;
+}
+
+.footer-global-nav-column h2.column-heading {
+	border-bottom: 2px solid #ff8c00;
+	margin-bottom: 6px;
+}
+
+.footer-global-nav-column h2.column-heading.research {
+	border-bottom-color: #71b360;
+}
+.footer-global-nav-column h2.column-heading.training {
+	border-bottom-color: #fab700;
+}
+.footer-global-nav-column h2.column-heading.industry {
+	border-bottom-color: #346189;
+}
+.footer-global-nav-column h2.column-heading.about {
+	border-bottom-color: #207a7a;
+}
+
+.footer-global-nav-column h2.column-heading a {
+	display: block;
+	font-size: 16px;
+	line-height: 1.1;
+	color: #444;
+	padding: 8px 5px 8px 5px;
+}
+
+.global-footer-navigation ul {
+	padding: 0 0 0 10px;
+	list-style: none;
+	font-size: 0; /* this removes mystery gap between a-tag and li elements */
+}
+.global-footer-navigation ul li {
+	padding: 0;
+	margin: 4px 0 3px 0;
+	display: block;
+}
+.global-footer-navigation ul li a {
+	padding: 1px 4px 2px 0;
+	font-size: 11px;
+	line-height: 1.1;
+	color: #005472;
+}
+.global-footer-navigation ul li a:hover {
+  color: #ff8c00;
+}
 
 
-
-
-
-
-
-
+.global-footer-navigation .footer-global-nav-column.first ul {
+	padding-left: 0;
+}
 
 
 

@@ -43,6 +43,7 @@
 
 .main-content-inner {
 	padding-top: 10px;
+	padding-bottom: 30px;
 }
 /* Adds some more outer margin to the content area
  * to compensate for only 5px that the 960 grid adds
@@ -65,6 +66,9 @@
 }
 /* for mobile */
 @media all and (max-width: 739px) {
+	.main-content-inner {
+		padding-bottom: 10px;
+	}
 	.no-sidebars .main-content-inner {
 		margin-left: 10px;
 		margin-right: 10px;
@@ -94,12 +98,6 @@
 }
 .footer-meta-inner {
 	margin-left: 5px;
-	margin-right: 5px;
-}
-.footer-first-menu-inner {
-	margin-left: 5px;
-}
-.footer-last-menu-inner {
 	margin-right: 5px;
 }
 /* for mobile */
