@@ -212,7 +212,7 @@
 
 h1.title {
 	font-size: 37px;
-	color: #996a44;
+	color: #005472; /* #996a44; */
 	line-height: 1.1;
 	font-weight: 300;
 	margin: 0 0 12px 0;
@@ -220,7 +220,7 @@ h1.title {
 
 h2 {
 	font-size: 25px;
-	color: #996a44;
+	color: #005472; /* #996a44; */
 	line-height: 1.2;
 	font-weight: 300;
 	margin: 0 0 12px 0;
@@ -228,7 +228,7 @@ h2 {
 
 h3 {
 	font-size: 17px;
-	color: #996a44;
+	color: #005472; /* #996a44; */
 	line-height: 1.2;
 	font-weight: 300;
 	margin: 0 0 12px 0;
@@ -291,16 +291,16 @@ p.standfirst {
 	margin-bottom: 6px;
 }
 
-.footer-global-nav-column h2.column-heading.research {
+.footer-global-nav-column h2.column-heading.border-1 {
 	border-bottom-color: #71b360;
 }
-.footer-global-nav-column h2.column-heading.training {
+.footer-global-nav-column h2.column-heading.border-2 {
 	border-bottom-color: #fab700;
 }
-.footer-global-nav-column h2.column-heading.industry {
+.footer-global-nav-column h2.column-heading.border-3 {
 	border-bottom-color: #346189;
 }
-.footer-global-nav-column h2.column-heading.about {
+.footer-global-nav-column h2.column-heading.border-4 {
 	border-bottom-color: #207a7a;
 }
 
@@ -309,8 +309,12 @@ p.standfirst {
 	font-size: 16px;
 	line-height: 1.1;
 	color: #444;
-	padding: 8px 5px 8px 5px;
+	padding: 8px 0 8px 0;
 }
+.footer-global-nav-column h2.column-heading a:hover {
+	background-color: transparent;
+}
+
 
 .global-footer-navigation ul {
 	padding: 0 0 0 10px;
@@ -327,27 +331,116 @@ p.standfirst {
 	font-size: 11px;
 	line-height: 1.1;
 	color: #005472;
+	text-decoration: none;
 }
 .global-footer-navigation ul li a:hover {
   color: #ff8c00;
+  text-decoration: none;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
 }
-
 
 .global-footer-navigation .footer-global-nav-column.first ul {
 	padding-left: 0;
 }
 
+/* footer global nav - for mobile */
+@media all and (max-width: 739px) {
+	.footer-global-nav-column {
+		display: block;
+		float: none;
+		margin-right: 20px;
+	}
+}
 
 
+/* ==========================================================================
+   Elixir Footer
+   ========================================================================== */
+
+/* address */
+#footer-meta .address {
+	margin: 0 0 5px 0;
+	color: #888;
+	font-size: 11px;
+}
+
+/* copyright and legal menu wrappeer */
+#legal {
+	margin-bottom: 5px;
+}
+
+/* copyright */
+#footer-meta .copyright {
+	font-size: 11px;
+	*display: inline;	/* hack for old IE browsers */
+	zoom: 1; /* hack for old IE browsers */
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* legal */
+#footer-meta .legal-navigation {
+	*display: inline; /* hack for old IE browsers */
+	zoom: 1; /* hack for old IE browsers */
+	display: inline-block;
+	vertical-align: top;
+	font-size: 11px;
+}
+
+#footer-meta ul.legal {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#footer-meta ul.legal a {
+	font-size: 11px;
+	line-height: 1;
+	color: #222;
+	list-style: none;
+	padding: 2px 4px 2px 0; 
+	text-decoration: none;
+}
+#footer-meta ul.legal li {
+	padding: 0;
+  margin: 0;
+  display: inline;
+  padding-left: 8px;
+  background-image: url('../img/menu-divider.jpg');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+#footer-meta ul.legal li.first {
+	margin-left: 5px;
+}
+#footer-meta ul.legal a:hover {
+	text-decoration: none;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #e4e4e4;
+	color: #999;
+}
 
 
-
-
-
-
-
-
-
+/* Elixir Footer - for mobile */
+@media all and (max-width: 739px) {
+	#footer-meta .copyright {
+		display: block;
+		margin-bottom: 3px;
+	}
+	#footer-meta .legal-navigation {
+		display: block;
+	}
+	#footer-meta ul.legal li.first {
+		background-image: none;
+		margin-left: 0;
+		padding-left: 0;
+	}
+}
 
 
 
