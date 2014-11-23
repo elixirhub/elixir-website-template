@@ -484,6 +484,22 @@ p.standfirst {
 	border-bottom: 1px solid #999;
 }
 
+/* for mobile */
+@media all and (max-width: 739px) {
+	#left-sidebar .menu {
+		padding-left: 0;
+	}
+	#left-sidebar .menu .menu,
+	#left-sidebar .menu ul {
+		padding-left: 10px;
+		padding-right: 0;
+	}
+	#left-sidebar .menu li a {
+		padding-top: 5px;
+		padding-bottom: 7px;
+	}
+}
+
 /* ==========================================================================
 	 Site content - Tables
 	 ========================================================================== */
