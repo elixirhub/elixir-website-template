@@ -207,40 +207,6 @@
 
 
 /* ==========================================================================
-   Page Title and Headings
-   ========================================================================== */
-
-h1.title {
-	font-size: 37px;
-	color: #005472; /* #996a44; */
-	line-height: 1.1;
-	font-weight: 300;
-	margin: 0 0 12px 0;
-}
-
-h2 {
-	font-size: 25px;
-	color: #005472; /* #996a44; */
-	line-height: 1.2;
-	font-weight: 300;
-	margin: 0 0 12px 0;
-}
-
-h3 {
-	font-size: 17px;
-	color: #005472; /* #996a44; */
-	line-height: 1.2;
-	font-weight: 300;
-	margin: 0 0 12px 0;
-}
-
-p.standfirst {
-	font-size: 15px;
-}
-
-
-
-/* ==========================================================================
    Footer section
    ========================================================================== */
 
@@ -504,13 +470,86 @@ p.standfirst {
 	 Site content - Tables
 	 ========================================================================== */
 
+/* table style 1 - blue */
+table.style-1 {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: white;
+	margin: 0 0 20px 0;
+	border: 5px solid #f1f1f1;
+}
+table.style-1 th {
+	background-color: #005472;
+	border: 1px solid #adadaf;
+	color: #ffffff;
+	padding: 3px 6px;
+	vertical-align: top;
+	border-collapse: collapse;
+}
+table.style-1 th,
+table.style-1 thead th {
+	text-align: left;
+	padding-right: 0;
+	border-bottom: none;
+}
+table.style-1 tr {
+	border-bottom: 1px solid #ccc;
+}
+table.style-1 tr:nth-child(2n+2) {
+	background-color: #d9e6ea;
+}
+table.style-1 td {
+	padding: 3px 6px;
+	border: 1px solid #ccc;
+}
 
+/* table style 2 - orange */
+table.style-2 {
+	border-collapse: collapse;
+	width: 100%;
+	background-color: white;
+	margin: 0 0 20px 0;
+	border: 5px solid #f1f1f1;
+}
+table.style-2 th {
+	background-color: #FF8C00;
+	border: 1px solid #adadaf;
+	color: #ffffff;
+	padding: 3px 6px;
+	vertical-align: top;
+	border-collapse: collapse;
+}
+table.style-2 th,
+table.style-2 thead th {
+	text-align: left;
+	padding-right: 0;
+	border-bottom: none;
+}
+table.style-2 tr {
+	border-bottom: 1px solid #ccc;
+}
+table.style-2 tr:nth-child(2n+2) {
+	background-color: #ffeed9;
+}
+table.style-2 td {
+	padding: 3px 6px;
+	border: 1px solid #ccc;
+}
 
 /* ==========================================================================
 	 Site content - Lists
    ========================================================================== */
 
-
+/* list with orange bullets */
+ul.orange {
+	margin: 0 0 20px 0;
+	padding: 0;
+	list-style: disc url("../img/orange-disc.png");
+}
+ul.orange li {
+	margin: 2px 0 2px 24px;
+	padding: 0;
+}
 
 
 	
