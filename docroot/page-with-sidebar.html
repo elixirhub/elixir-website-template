@@ -89,15 +89,28 @@
 
 
   <!-- main content based on two column layout in this instance -->
-  <div id="main-wrapper" role="main" class="grid_24 clearfix">
-	<div id="left-sidebar grid_6">
+  <div id="main-wrapper" role="main" class="grid_24 alpha omega clearfix">
+	<div id="left-sidebar" class="grid_6">
 	  <div class="sidebar-inner">
 		<aside>
-		  <p>This is a normal paragraph. Vivamus vestibulum in eros at placerat. Aliquam auctor tellus sed magna facilisis laoreet. Vestibulum tempus porta mattis. Aliquam pellentesque placerat urna, eget feugiat sapien blandit sit amet. Nulla finibus sapien quis sem convallis ultricies.</p>
+		  <div class="menu-heading">About</div>
+		  <ul class="menu">
+		    <li class="first"><a href="#">Menu item here</a></li>
+		    <li>
+			  <a href="#">Menu item here</a>
+			  <ul class="menu">
+				<li><a href="#">Nested menu item</a></li>
+				<li><a href="#">Nested menu item</a></li>
+				<li><a href="#">Nested menu item</a></li>
+			  </ul>
+			</li>
+			<li><a href="#">Menu item with a much longer title that wraps here</a></li>
+			<li class="last"><a href="#">Menu item here</a></li>
+		  </ul>
 		</aside>
 	  </div>
 	</div>
-    <div id="main-content grid_18">
+    <div id="main-content" class="grid_18">
 	  <div class="main-content-inner">
 	    <section>
 		  	  <!-- page content title -->
