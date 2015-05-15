@@ -50,22 +50,7 @@
 	border-top: 3px solid #FF8C00;
   padding-top: 5px;
 }
-#global-nav .menu-about a:hover,
-#global-nav .menu-about a.active {
-	border-top-color: #207a7a;
-}
-#global-nav .menu-services a:hover,
-#global-nav .menu-services a.active {
-	border-top-color: #71b360;
-}
-#global-nav .menu-training a:hover,
-#global-nav .menu-training a.active {
-	border-top-color: #fab700;
-}
-#global-nav .menu-documents a:hover,
-#global-nav .menu-documents a.active {
-	border-top-color: #346189;
-}
+
 /* global masterhead - for mobile */
 @media all and (max-width: 739px) {
 	#global-masthead {
@@ -80,15 +65,7 @@
 		border-top: 1px solid #666;
 	}
 	#global-nav a:hover,
-	#global-nav a.active,
-	#global-nav .menu-about a:hover,
-	#global-nav .menu-about a.active,
-	#global-nav .menu-services a:hover,
-	#global-nav .menu-services a.active,
-	#global-nav .menu-training a:hover,
-	#global-nav .menu-training a.active,
-	#global-nav .menu-documents a:hover,
-	#global-nav .menu-documents a.active {
+	#global-nav a.active {
 		border-top: none;
 	}
 	#global-nav a:hover,
@@ -105,8 +82,17 @@
 
 /* local masterhead - banner */
 #local-masthead {
-	background-color:#f47d20;
+	background-color: #f47d20;
+	background-image: url(../img/header-background.jpg);
+	background-repeat: repeat;
 }
+
+#name-and-slogan {
+	background-image: url(../img/header-background-image.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
 /* local masterhead - site name */
 .site-name {
 	color: #fff;
@@ -253,21 +239,8 @@
 }
 
 .footer-global-nav-column h2.column-heading {
-	border-bottom: 2px solid #ff8c00;
+	border-bottom: 2px solid #346189;
 	margin-bottom: 6px;
-}
-
-.footer-global-nav-column h2.column-heading.border-1 {
-	border-bottom-color: #71b360;
-}
-.footer-global-nav-column h2.column-heading.border-2 {
-	border-bottom-color: #fab700;
-}
-.footer-global-nav-column h2.column-heading.border-3 {
-	border-bottom-color: #346189;
-}
-.footer-global-nav-column h2.column-heading.border-4 {
-	border-bottom-color: #207a7a;
 }
 
 .footer-global-nav-column h2.column-heading a {
