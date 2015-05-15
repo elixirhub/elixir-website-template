@@ -82,8 +82,17 @@
 
 /* local masterhead - banner */
 #local-masthead {
-	background-color:#f47d20;
+	background-color: #f47d20;
+	background-image: url(../img/header-background.jpg);
+	background-repeat: repeat;
 }
+
+#name-and-slogan {
+	background-image: url(../img/header-background-image.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
 /* local masterhead - site name */
 .site-name {
 	color: #fff;
